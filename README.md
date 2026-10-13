@@ -64,12 +64,6 @@ Cross-origin QR images may be fetched from their source without cookies. There i
 The extension requests `storage`, `scripting`, and access to all URLs so it can inspect checkout pages. Chrome's protected internal pages are not supported.
 
 ## Current limitations
-
-- Warnings are advisory. The extension does not sign, send, reverse, or block wallet transactions.
-- If an attacker changes both the displayed payment details and the QR consistently, this version may not detect the attack.
-- **Merchant-signed payment intent verification is not implemented in the bundled v1.5.1 source.** This archive verifies checkout/QR consistency and local registry matches.
-- Token checking is limited. This version detects a QR requesting an SPL token when the page states SOL; it does not comprehensively validate every token identity.
-- QR decoding and text extraction depend on page structure, visibility, and image readability.
 - The bundled interface is in Portuguese.
 
 ## Videos
